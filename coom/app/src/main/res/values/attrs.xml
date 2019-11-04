@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NoiseboardView">
+        <attr name="radius" format="dimension"/>     <!--扇形半径-->
+        <attr name="bigSliceCount" format="integer"/> <!-- 长刻度条数-->
+        <attr name="sliceCountInOneBigSlice" format="integer"/> <!-- 每两条长刻度之间分条数-->
+        <attr name="scaleColor" format="color"/> <!--刻度颜色-->
+        <attr name="scaleTextSize" format="dimension"/> <!--刻度字体大小-->
+        <attr name="unitText" format="string"/> <!--单位-->
+        <attr name="unitTextSize" format="string"/> <!--单位字体大小-->
+        <attr name="minValue" format="integer"/> <!--最小值-->
+        <attr name="maxValue" format="integer"/> <!--最大值-->
+        <attr name="ribbonWidth" format="dimension"/> <!--色带宽度-->
+    </declare-styleable>
+
+    <declare-styleable name="CountDownProgressBar">
+        <attr name="countDown_circleWidth" format="dimension" />
+        <attr name="countDown_centerTextSize" format="dimension" />
+        <attr name="countDown_betaAngle" format="integer" />
+        <attr name="countDown_firstColor" format="color" />
+        <attr name="countDown_secondColor" format="color" />
+        <attr name="countDown_centerTextColor" format="color" />
+        <attr name="countDown_isShowGradient" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

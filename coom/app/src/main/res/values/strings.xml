@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">拔河游戏</string>
+
+
+    <string name="connect">连接</string>
+    <string name="send">发送</string>
+    <string name="message">message</string>
+</resources>
