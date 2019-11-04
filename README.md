@@ -15,3 +15,8 @@ We need to process the data obtained from the Client and send the correct data t
 1. The game has limited time
 2. Mulitple players are allowed to play the game together
 3. Every time the player shakes the phone, the count pluses one
+
+### Visualizaiton Components:
+1. Visuialzation Pointer
+2. Timer
+3. Numbers
