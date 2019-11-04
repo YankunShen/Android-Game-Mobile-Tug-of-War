@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type="text/css">
+		body
+		{ 
+		background-image: url('2.jpg');
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-position: 50% 15%; 
+		}
+	</style> 
+  	<meta charset="utf-8"/>
+    <title>regesiter.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <center><h1>注册界面</h1> <br></center>
+    <form method="post" action="zhuceServlet">
+    		<table align="center" cellspacing="10">
+    			<tr>
+    				<td>请输入用户名:</td>
+    				<td><input type="text" name="um"/></td></tr>
+    			<tr>
+    				<td>请输入密码:</td>
+    				<td><input type="text" name="psw"/></td></tr>
+    			<tr>
+    				<td>请选择组别：</td>
+    				<td><input type="radio" name="state" value="A"/>A组
+    				<input name="state" type="radio" value="B"/>B组</td>
+    			<tr>
+    				<td><input type="submit" value="注册"/></td></tr></table>
+  </body>
+</html>

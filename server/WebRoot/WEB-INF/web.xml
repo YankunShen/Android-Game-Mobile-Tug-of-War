@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>shixiServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>shixi.shixiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zhuceServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>shixi.zhuceServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>shixiServlet</servlet-name>
+    <url-pattern>/shixiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhuceServlet</servlet-name>
+    <url-pattern>/zhuceServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
