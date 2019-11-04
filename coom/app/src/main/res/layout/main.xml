@@ -19,7 +19,7 @@
         android:layout_marginTop="0dp"
         android:background="@color/colorAccent"
         android:gravity="center"
-        android:text="手机拔河"
+        android:text="Mobile Tug of War"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -57,7 +57,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A组：" />
+            android:text="Group A：" />
 
         <TextView
             android:id="@+id/jia1"
@@ -74,8 +74,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="B组："
-            />
+            android:text="Group B：" />
         <TextView
             android:id="@+id/yi1"
             android:layout_width="wrap_content"
